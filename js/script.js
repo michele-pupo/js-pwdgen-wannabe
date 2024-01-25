@@ -13,5 +13,8 @@ let color = prompt("Qual è il tuo colore preferito?");
 
 document.getElementById("color-favorite").innerHTML = color;
 
+// numero fisso
+const number = "23";
+
 // generiamo la password con una somma
-document.getElementById("password").innerHTML = `${firstname}${secondname}${color}`;
+document.getElementById("password").innerHTML = `${firstname}${secondname}${color}${number}`;
